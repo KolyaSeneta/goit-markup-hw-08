@@ -1,0 +1,15 @@
+header {
+    border: 1px solid #ECECEC;
+}
+
+.page-header {
+    background: var(--bg-white);
+}
+
+
+.page-header__block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+

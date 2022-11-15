@@ -1,0 +1,96 @@
+.features {
+    letter-spacing: 0.03em;
+    background: var(--bg-white);
+}
+
+.features__title {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.feauter__box {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.feauter__satellite::before {
+    background-color: var(--bg-icons);
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-position: 50% 50%;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/feature1.svg);
+}
+
+
+.feauter__clock::before {
+    background-color: var(--bg-icons);
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-position: 50% 50%;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/feature2.svg);
+}
+
+.feauter__diagram::before {
+    background-color: var(--bg-icons);
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-position: 50% 50%;
+    background-image: url(../images/feature3.svg);
+    justify-content: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+}
+
+
+.feauter__astronaut::before {
+    background-color: var(--bg-icons);
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-position: 50% 50%;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/feature4.svg);
+}
+
+.features__item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin: 0px;
+    padding: 0px;
+}
+
+.features__text {
+    color: var(--paragraph-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    margin: 0px;
+    padding: 0px;
+}
+
+.features__list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}

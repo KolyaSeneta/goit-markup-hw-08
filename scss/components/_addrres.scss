@@ -1,0 +1,29 @@
+.addrres__site {
+    margin-top: 20px;
+}
+
+
+.addrres__item--mail {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+
+.address__link:hover,
+.address__link:focus {
+    color: var(--secondary-color);
+}
+
+.address__link {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.addrres__map {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
