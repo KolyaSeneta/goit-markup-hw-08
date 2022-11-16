@@ -3,13 +3,22 @@
     display: block;
     padding: 0px;
         margin: 0px;
+       &:hover,
+       &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+       }
+
+       &:hover .portfolio__text--label,
+       &:focus .portfolio__text--label{
+            transform: translateY(0%);
+            overflow: auto;
+        }
 }
 
-.portfolio__link:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+// .portfolio__link:hover {
+//     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+// }
 
 .portfolio__label {
     position: relative;
@@ -33,10 +42,10 @@
     padding: 63px 24px;
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(101%);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
 .porfolio__box {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
@@ -56,13 +65,11 @@
     font-size: 16px;
     line-height: 2.25;
 }
-.portfolio__link:hover .portfolio__text--label,
-.portfolio__link:focus .portfolio__text--label {
-    transform: translateY(0%);
-    overflow: auto;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+// .portfolio__link:hover .portfolio__text--label,
+// .portfolio__link:focus .portfolio__text--label {
+//     transform: translateY(0%);
+//     overflow: auto;
+// }
 
 .portfolio {
     display: flex;

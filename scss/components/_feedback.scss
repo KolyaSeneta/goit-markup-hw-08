@@ -14,8 +14,14 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 32px;
+        padding-bottom: 32px;
+
+        &:hover,
+        &:focus {
+                color: var(--secondary-color);
+            }
 }
 
 .icon-phone,
@@ -23,9 +29,7 @@
     fill: currentColor;
 }
 
-.feedback__link:hover,
-.feedback__link:focus {
-    color: var(--secondary-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+// .feedback__link:hover,
+// .feedback__link:focus {
+//     color: var(--secondary-color);
+// }
