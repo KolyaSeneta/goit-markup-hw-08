@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+    .buttons__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+
+   .portfolio{
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+   }
+   .portfolio_link{
+
+    width: 100%;
+   }
+   .portfolio__item{
+    width: 100%;
+   }
+   .portfolio__img{
+    width: 100%;
+   }
+
+
+}

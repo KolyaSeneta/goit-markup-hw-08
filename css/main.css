@@ -1409,4 +1409,35 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+@media screen and (max-width: 480px) {
+  .buttons__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .portfolio {
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 0px;
+  }
+  .portfolio_link {
+    width: 100%;
+  }
+  .portfolio__item {
+    width: 100%;
+  }
+  .portfolio__img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
