@@ -19,6 +19,11 @@
       <div class="container">
         <div class="page-header__block">
           <a href="index.html" class="logo">Web<span class="logo--black">Studio</span></a>
+          <button class="btn-burger__open">
+            <svg class="icon icon-menu-open" width="40" height="40">
+              <use xlink:href="./images/burger-open.svg#icon-menu-open"></use>
+            </svg>
+          </button>
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item nav__item--emphasis">
@@ -108,9 +113,9 @@
               <img
                 src="./images/programer.jpg"
                 alt="Програміст пише верстку сайту"
+                class="team_img"
                 width="370"
                 height="294"
-                class="about__img"
               />
               <p class="about__text">Десктопні додатки</p>
             </li>
@@ -118,19 +123,19 @@
               <img
                 src="./images/web-ui.jpg"
                 alt="Програміст розробляє додаток на смартфон"
+                class="team_img"
                 width="370"
                 height="294"
-                class="about__img"
               />
               <p class="about__text">Мобільні додатки</p>
             </li>
             <li class="about__item">
               <img
                 src="./images/creative.jpg"
+                class="team_img"
                 alt="Дизайнер розробляє логотип"
                 width="370"
                 height="294"
-                class="about__img"
               />
               <p class="about__text">Дизайнерські рішення</p>
             </li>
@@ -142,7 +147,13 @@
           <h2 class="title-primary">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img src="./images/designer.jpg" alt="Дизайнер продукту" width="270" height="260" />
+              <img
+                src="./images/designer.jpg"
+                class="team_img"
+                alt="Дизайнер продукту"
+                width="270"
+                height="260"
+              />
               <div class="team__box">
                 <h3 class="team__title">Ігор Дем'яненко</h3>
                 <p class="team__text">Product Designer</p>
@@ -200,6 +211,7 @@
             </li>
             <li class="team__item">
               <img
+                class="team_img"
                 src="./images/frontend.jpg"
                 alt="Розробник інтерфейсу"
                 width="270"
@@ -261,7 +273,13 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="./images/marketing.jpg" alt="Маркетолог" width="270" height="260" />
+              <img
+                src="./images/marketing.jpg"
+                alt="Маркетолог"
+                width="270"
+                height="260"
+                class="team_img"
+              />
               <div class="team__box">
                 <h3 class="team__title">Микола Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -319,6 +337,7 @@
             </li>
             <li class="team__item">
               <img
+                class="team_img"
                 src="./images/ui.jpg"
                 alt="Дизайнер інтерфейсу користувача"
                 width="270"
@@ -438,63 +457,6 @@
               <use xlink:href="./images/sprite.svg#icon-btn-modal"></use>
             </svg>
           </button>
-          <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
-          <div class="modal__box">
-            <form action="#" name="service">
-              <label for="name" class="modal__text">Ім'я</label>
-              <div class="modal__from-row">
-                <input type="text" id="name" name="user_name" class="input input__user" /><svg
-                  class="icon-modal icon-modal__user"
-                  width="18"
-                  height="18"
-                >
-                  <use xlink:href="./images/sprite.svg#icon-user"></use>
-                </svg>
-              </div>
-              <label for="phone" class="modal__text">Телефон</label>
-              <div class="modal__from-row">
-                <input type="text" id="number" name="user_phone" class="input input__phone" /><svg
-                  class="icon-modal icon-modal__phone"
-                  width="18"
-                  height="18"
-                >
-                  <use xlink:href="./images/sprite.svg#icon-phone-modal"></use>
-                </svg>
-              </div>
-
-              <label for="mail" class="modal__text">Пошта</label>
-              <div class="modal__from-row">
-                <input type="text" id="mail" name="user_mail" class="input input__mail" /><svg
-                  class="icon-modal icon-modal__mail"
-                  width="18"
-                  height="18"
-                >
-                  <use xlink:href="./images/sprite.svg#icon-mail-modal"></use>
-                </svg>
-              </div>
-              <div>
-                <label for="feedback" class="modal__text">Коментар</label>
-                <textarea
-                  class="modal__coments"
-                  name="user_feedback"
-                  id="feedback"
-                  cols="30"
-                  rows="10"
-                  placeholder="Введіть текст"
-                ></textarea>
-              </div>
-              <div class="checkbox">
-                <label class="checkbox__text">
-                  <input class="checkbox__excluded" type="checkbox" name="checkbox" />
-                  <span class="checkbox__custom"></span>Погоджуюся з розсилкою та приймаю
-                  <a class="modal__link" href="#" target="_blank" rel="noopener noreferrer">
-                    Умови договору</a
-                  >
-                </label>
-              </div>
-              <button type="submit" class="modal__btn">Відправити</button>
-            </form>
-          </div>
         </div>
       </div>
     </main>

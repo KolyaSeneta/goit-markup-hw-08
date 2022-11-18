@@ -405,6 +405,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -1174,4 +1176,237 @@ header {
   border-radius: 4px;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .nav {
+    display: none;
+  }
+  .feedback {
+    display: none;
+  }
+  .logo {
+    margin: 16px 15px;
+  }
+  .btn-burger__open {
+    background-color: #fff;
+    border: none;
+    margin: 10px 15px 10px auto;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 480px) {
+  .promo__title {
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
+@media screen and (max-width: 480px) {
+  .features__item {
+    width: 100%;
+  }
+  .features__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .feauter__satellite::before {
+    background-color: var(--bg-icons);
+    content: "";
+    width: 100%;
+    height: 120px;
+    display: block;
+    background-position: 50% 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/feature1.svg);
+  }
+  .feauter__clock::before {
+    background-color: var(--bg-icons);
+    content: "";
+    width: 100%;
+    height: 120px;
+    display: block;
+    background-position: 50% 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/feature2.svg);
+  }
+  .feauter__diagram::before {
+    background-color: var(--bg-icons);
+    content: "";
+    width: 100%;
+    height: 120px;
+    display: block;
+    background-position: 50% 50%;
+    background-image: url(../images/feature3.svg);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+  }
+  .feauter__astronaut::before {
+    background-color: var(--bg-icons);
+    content: "";
+    width: 100%;
+    height: 120px;
+    display: block;
+    background-position: 50% 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/feature4.svg);
+  }
+}
+@media screen and (max-width: 480px) {
+  .about {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .team__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .team_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+  }
+  .team_img {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .clients_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (max-width: 480px) {
+  .container__band {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .addrres__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .social {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: block;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .social__title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe {
+    margin-left: 0px;
+    margin-top: 60px;
+    display: block;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe__mail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .subscribe__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe__btn {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .subscribe__form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */

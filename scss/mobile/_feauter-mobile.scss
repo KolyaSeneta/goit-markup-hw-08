@@ -1,0 +1,66 @@
+@media screen and (max-width: 480px) {
+    
+    .features__item {
+        width: 100%;
+    }
+    .features__title {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .feauter__satellite::before {
+            background-color: var(--bg-icons);
+            content: "";
+            width: 100%;
+            height: 120px;
+            display: block;
+            background-position: 50% 50%;
+            justify-content: center;
+            margin-bottom: 30px;
+            background-repeat: no-repeat;
+            background-image: url(../images/feature1.svg);
+        
+        }
+    
+    
+        .feauter__clock::before {
+            background-color: var(--bg-icons);
+            content: "";
+            width: 100%;
+            height: 120px;
+            display: block;
+            background-position: 50% 50%;
+            justify-content: center;
+            margin-bottom: 30px;
+            background-repeat: no-repeat;
+            background-image: url(../images/feature2.svg);
+        }
+    
+        .feauter__diagram::before {
+            background-color: var(--bg-icons);
+            content: "";
+            width: 100%;
+            height: 120px;
+            // min-height: 120px;
+            display: block;
+            background-position: 50% 50%;
+            background-image: url(../images/feature3.svg);
+            justify-content: center;
+            margin-bottom: 30px;
+            background-repeat: no-repeat;
+        }
+    
+    
+        .feauter__astronaut::before {
+            background-color: var(--bg-icons);
+            content: "";
+            width: 100%;
+            height: 120px;
+            display: block;
+            background-position: 50% 50%;
+            justify-content: center;
+            margin-bottom: 30px;
+            background-repeat: no-repeat;
+            background-image: url(../images/feature4.svg);
+        }
+}
