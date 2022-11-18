@@ -457,6 +457,72 @@
               <use xlink:href="./images/sprite.svg#icon-btn-modal"></use>
             </svg>
           </button>
+          <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+          <div class="modal__box">
+            <form action="#" name="service">
+              <label for="name" class="modal__text">Ім'я</label>
+              <div class="modal__from-row">
+                <input type="text" id="name" name="user_name" class="input input__user" /><svg
+                  class="icon-modal icon-modal__user"
+                  width="18"
+                  height="18"
+                >
+                  <use xlink:href="./images/sprite.svg#icon-user"></use>
+                </svg>
+              </div>
+              <label for="phone" class="modal__text">Телефон</label>
+              <div class="modal__from-row">
+                <input type="text" id="number" name="user_phone" class="input input__phone" /><svg
+                  class="icon-modal icon-modal__phone"
+                  width="18"
+                  height="18"
+                >
+                  <use xlink:href="./images/sprite.svg#icon-phone-modal"></use>
+                </svg>
+              </div>
+
+              <label for="mail" class="modal__text">Пошта</label>
+              <div class="modal__from-row">
+                <input type="text" id="mail" name="user_mail" class="input input__mail" /><svg
+                  class="icon-modal icon-modal__mail"
+                  width="18"
+                  height="18"
+                >
+                  <use xlink:href="./images/sprite.svg#icon-mail-modal"></use>
+                </svg>
+              </div>
+              <div>
+                <label for="feedback" class="modal__text">Коментар</label>
+                <textarea
+                  class="modal__coments"
+                  name="user_feedback"
+                  id="feedback"
+                  cols="30"
+                  rows="10"
+                  placeholder="Введіть текст"
+                ></textarea>
+              </div>
+              <div class="checkbox">
+                <label class="checkbox__text">
+                  <input class="checkbox__excluded" type="checkbox" name="checkbox" />
+                  <span class="checkbox__custom"></span>Погоджуюся з розсилкою та приймаю
+                  <a class="modal__link" href="#" target="_blank" rel="noopener noreferrer">
+                    Умови договору</a
+                  >
+                </label>
+              </div>
+              <button type="submit" class="modal__btn">Відправити</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal is-hidden" data-modal>
+        <div class="modal__window">
+          <button type="button" class="modal__btn-closed" data-modal-close>
+            <svg class="icon icon__btn" width="11" height="11">
+              <use xlink:href="./images/sprite.svg#icon-btn-modal"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </main>

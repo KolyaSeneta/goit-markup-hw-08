@@ -27,3 +27,12 @@ h2 {
     margin: 0px;
     padding: 0px;
 }
+
+@media screen and (min-width: 480px) {
+    .btn-burger__open {
+        display: none;
+
+
+    }
+
+}
