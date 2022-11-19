@@ -32,6 +32,11 @@
 
 @import "./layout/portfolio";
 @import "./components/buttons-list";
+@import "./tablet/header-tablete";
+@import "./tablet/feauter-tablet";
+@import "./tablet/about-tablete";
+@import "./tablet/team-tablet";
+@import "./tablet/footer-tablet";
 @import "./mobile/header-mobile";
 @import "./mobile/promo-mobile";
 @import "./mobile/feauter-mobile";
@@ -40,3 +45,4 @@
 @import "./mobile/clients-mobile";
 @import "./mobile/footer-mobile";
 @import "./mobile/portfolio-mobile";
+@import "./mobile/burger-menu";

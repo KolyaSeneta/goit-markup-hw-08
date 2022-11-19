@@ -1,0 +1,28 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .footer__box {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    
+    .addrres__item{
+        width: 232px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container__band{
+        flex-wrap: wrap;
+    }
+    .subscribe{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
