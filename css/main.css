@@ -1242,6 +1242,14 @@ header {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  .container__band {
+    max-width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .footer__box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1253,10 +1261,9 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin-bottom: 60px;
+    width: 232px;
+    margin-left: 76px;
   }
   .addrres__item {
     width: 232px;
@@ -1267,25 +1274,46 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .footer .container {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .social {
+    margin-left: 165px;
   }
-  .container__band {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .social__title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .subscribe {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .subscribe__mail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 450px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe__form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe__btn {
+    margin: 0 auto;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1570,6 +1598,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: none;
 }
 
 .modal-mobile__window {
@@ -1582,4 +1611,5 @@ header {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: none;
 }/*# sourceMappingURL=main.css.map */
