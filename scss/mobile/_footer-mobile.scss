@@ -46,7 +46,7 @@
         .subscribe__mail{
            display: flex;
            align-items: center;
-           width: 100%;
+           max-width: 450px;
 
         }
 
@@ -68,4 +68,12 @@
         }
 
    
+}
+@media screen and (max-width: 480px){
+    .subscribe__mail {
+            display: flex;
+            align-items: center;
+            width: 100%;
+    
+        }
 }
