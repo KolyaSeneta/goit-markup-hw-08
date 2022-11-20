@@ -1,12 +1,9 @@
-@media screen and (min-width: 481px) and (max-width: 768px) {
-
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+ 
+   
     .container__band{
-        max-width: 768px;
-        display: flex;
         flex-wrap: wrap;
     }
-    
-    
     .footer__box {
         flex-direction: column;
         display: flex;
@@ -14,7 +11,6 @@
         margin-bottom: 60px;
        width: 232px;
        margin-left: 76px;
-      
         
     }
     .addrres__item{
@@ -23,13 +19,13 @@
         justify-content: center;
     }
 
-    .social{
-        margin-left: 165px;
+    // .social{
+    //     margin-left: 165px;
         
 
-    }
         .social__title{
             justify-content: center;
+           
         }
     .subscribe{
         display: flex;
@@ -41,12 +37,14 @@
     }
         .subscribe__mail{
             display: flex;
-            width: 450px;
+            
             justify-content: center;
            
         }
         .subscribe__form{
             justify-content: center;
+            display: flex;
+            flex-direction: column;
         }
         .subscribe__btn{
             margin: 0 auto;
