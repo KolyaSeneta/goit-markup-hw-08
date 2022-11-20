@@ -1,0 +1,12 @@
+ @media screen and (min-width: 768px) and (max-width: 1200px) {
+
+ .clients__item{
+    display: flex;
+    flex-basis: calc( ( 100% - 60px) / 3);
+        justify-content: center;
+ }
+ .clients__link {
+    width: 100%;
+ }
+
+ }

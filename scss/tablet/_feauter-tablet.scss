@@ -1,10 +1,26 @@
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .feauter__clock::before {
+            width: 100%;
+        }
 .features__item{
-    display: block;
+    flex-basis: calc((100% - 30px) / 2);
+        justify-content: center;
+        width: 100%;
        
 }
-    .features__list{
+    .features__list::before{
         justify-content: center;
     }
+        
     
+        .feauter__satellite::before {
+            
+            width: 100%;
+        }
+    .feauter__diagram::before {
+      width: 100%;
+     }
+   .feauter__astronaut::before {
+       width: 100%;
+   }
 }
