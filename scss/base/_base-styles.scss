@@ -31,9 +31,15 @@ h2 {
 @media screen and (min-width: 768px) {
     .btn-burger__open {
         display: none;
-
+    }
+    .modal-mobile{
+        display: none;
 
     }
+    .modal-mobile__window{
+        display: none;
+    }
+
     body{
         width: 100%;
     }
